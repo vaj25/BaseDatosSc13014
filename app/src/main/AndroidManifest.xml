@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sc13014.fia.ues.sv.basedatossc13014">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BaseDatosSc13014Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlumnoActualizarActivity" />
+        <activity android:name=".AlumnoConsultarActivity" />
+        <activity android:name=".AlumnoEliminarActivity" />
+        <activity android:name=".AlumnoInsertarActivity" />
+        <activity android:name=".AlumnoMenuActivity" />
+        <activity android:name=".MateriaActualizarActivity" />
+        <activity android:name=".MateriaConsultarActivity" />
+        <activity android:name=".MateriaInsetarActivity" />
+        <activity
+            android:name=".MateriaEliminarActivity"
+            android:label="@string/title_activity_materia_eliminar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MateriaMenuActivity" />
+        <activity android:name=".NotaActualizarActivity" />
+        <activity android:name=".NotaConsultarActivity" />
+        <activity android:name=".NotaEliminarActivity" />
+        <activity android:name=".NotaInsertarActivity" />
+        <activity android:name=".NotaMenuActivity"></activity>
+    </application>
+
+</manifest>
